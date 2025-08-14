@@ -1,0 +1,25 @@
+package DAY8;
+
+ class dad{
+
+	void property()
+	{
+		System.out.println("land,car,bike,cycle");
+	}
+}
+class son extends dad
+{
+	void show()
+	{
+		System.out.println("car");
+	}
+}
+
+public class Systemclass{ 
+ 
+	public static void main(String args[])
+	{
+		son obj=new son();
+		obj.property();
+	}
+}
