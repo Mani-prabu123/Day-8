@@ -1,0 +1,25 @@
+package DAY8;
+
+public class classmain 
+{
+	int rollno=67;
+	String name="mani";
+    static String collegename="mount zion";
+    void display(int a, String b) {
+    	System.out.println("spr.no :"+0+" Name : "+b+" College Name :"+collegename);
+    }
+	public static void main(String[] args){
+		classmain  s=new classmain();
+		s.display(s.rollno,s.name);
+		s.display(9164,"manikandaprabu");
+		s.display(9115,"kishore");
+		s.display(9365,"mohan");
+		classmain.collegename="zion";
+		s.display(s.rollno, s.name);
+		s.rollno=9146;
+		s.name="gokul (foot ball player )";
+		s.display(s.rollno,s.name);
+	}
+		
+
+}
