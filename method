@@ -1,0 +1,32 @@
+package DAY8;
+
+public class method {
+	int teamid=001;
+	String teamName="Zion foot ball 3.0";
+	static String college="Mount Zion";
+	
+	void display(int a,String b) {
+		System.out.println("Team Id : "+a+" Team Name : "+b);
+	}
+	void show(int a,String b) {
+		method.college="Zion";
+		System.out.println("Team Id : "+a+" Team Name : "+b +" --- College :"+college);
+	}
+	
+	
+	//static block  
+	static{
+		
+		System.out.println("welcome to Gokart Racing");
+	}
+		
+	public static void main(String[] args) {
+		method s=new method();
+		s.display(s.teamid,s.teamName);
+		s.teamid=2;
+		s.teamName="mzcetfc";
+		s.show(s.teamid,s.teamName);
+
+	}
+
+}
